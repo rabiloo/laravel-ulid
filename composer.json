@@ -1,16 +1,16 @@
 {
-  "name": "vendor_slug/package_slug",
-  "description": "package_description",
+  "name": "rabiloo/laravel-ulid",
+  "description": "This is my package laravel-ulid",
   "keywords": [
-    "vendor_slug",
-    "package_slug"
+    "rabiloo",
+    "laravel-ulid"
   ],
-  "homepage": "https://github.com/vendor_slug/package_slug",
+  "homepage": "https://github.com/rabiloo/laravel-ulid",
   "license": "MIT",
   "authors": [
     {
-      "name": "author_name",
-      "email": "author@domain.com",
+      "name": "Oanh Nguyen",
+      "email": "oanhnn.bk@gmail.com",
       "role": "Developer"
     }
   ],
@@ -25,12 +25,12 @@
   },
   "autoload": {
     "psr-4": {
-      ":namespace\\": "src"
+      "Rabiloo\\Laravel\\Ulid\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      ":namespace\\Tests\\": "tests"
+      "Rabiloo\\Laravel\\Ulid\\Tests\\": "tests"
     }
   },
   "scripts": {

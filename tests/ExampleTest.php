@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorNamespace\PackageNamespace\Tests;
+namespace Rabiloo\Laravel\Ulid\Tests;
 
 use PHPUnit\Framework\TestCase;
 

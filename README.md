@@ -1,19 +1,11 @@
-# package_name
+# Laravel Ulid
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/vendor_slug/package_slug.svg)](https://packagist.org/packages/vendor_slug/package_slug)
-[![Tests](https://github.com/vendor_slug/package_slug/actions/workflows/run-tests.yml/badge.svg)](https://github.com/vendor_slug/package_slug/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/vendor_slug/package_slug.svg)](https://packagist.org/packages/vendor_slug/package_slug)
-<!--delete-->
----
-This package can be used as to scaffold a framework agnostic package. Follow these steps to get started:
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/rabiloo/laravel-ulid.svg)](https://packagist.org/packages/rabiloo/laravel-ulid)
+[![Tests](https://github.com/rabiloo/laravel-ulid/actions/workflows/run-tests.yml/badge.svg)](https://github.com/rabiloo/laravel-ulid/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/rabiloo/laravel-ulid.svg)](https://packagist.org/packages/rabiloo/laravel-ulid)
 
-1. Press the "Use template" button at the top of this repo to create a new repo with the contents of this skeleton
-2. Run "php ./configure.php" to run a script that will replace all placeholders throughout all the files
-3. Have fun creating your package.
----
-<!--/delete-->
 
-package_description
+This is my package laravel-ulid
 
 This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
 
@@ -22,13 +14,13 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require vendor_slug/package_slug
+composer require rabiloo/laravel-ulid
 ```
 
 ## Usage
 
 ```php
-$skeleton = new \VendorNamespace\PackageNamespace\Skeleton();
+$skeleton = new \Rabiloo\Laravel\Ulid\Ulid();
 var_dump($skeleton);
 ```
 
@@ -52,7 +44,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [author_name](https://github.com/author_username)
+- [Oanh Nguyen](https://github.com/oanhnn)
 - [All Contributors](../../contributors)
 
 ## License
